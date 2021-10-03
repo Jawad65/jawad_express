@@ -1,0 +1,44 @@
+<%- include partials/header.ejs %>
+
+    <div class="container-fluid pb-5" style="background:white;" id="contact-section">
+        <div class="container h-100">
+            <h2 class="pt-5 pb-5 d-flex  justify-content-center" style="font-family:'Viga';color:rgb(38, 144, 201);">
+                Get in touch with me
+            </h2>
+            <div class="row mb-5 mt-2 d-flex justify-content-center row-shadow   zoom">
+                <div class="col-sm-6 d-flex justify-content-center header-contact" style="padding-top:100px;">
+                    <div class="overlay-contact"></div>
+                    <div class="center-header">
+                        <p class="text-light">
+                        <i class="fas fa-map-marker-alt mr-3"></i><span style="font-size:14px;">Scarborough, ON, Canada</span></p>
+                        <p class="text-light">
+                        <i class="fa fa-envelope mr-3"></i><span style="font-size:14px;">jabugaba@my.cenntenial.college.ca</span></p>
+                        <p class="text-light">
+                        <i class="fa fa-phone mr-3"></i><span style="font-size:14px;color:white;">966577250212</span></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 bg-light">
+                    <form id="myform" method="post" class="form-box pt-5">
+                        <h3 class="h4 text-dark mb-4 text-primary">
+                            <span style="color:rgb(38, 144, 201);font-weight: bold;">Send a hi5!</span>
+                        </h3>
+                        <div class="form-group">
+                            <input type="text" id="from_email" class="form-control" placeholder="Email Addresss">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="from_namee" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group mb-4">
+                            <textarea type="text" id="message_html_value" line="3" aria-multiline="true" class="form-control" placeholder="HI Jawad,..."></textarea>
+                        </div>
+                        <div class="form-group mt-4">
+                            <button class="btn" name="emailButton" id="emailButton">Send</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <%- include partials/footer.ejs %>
