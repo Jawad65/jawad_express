@@ -2,7 +2,7 @@ import express from 'express';
 import { UserDisplayName } from '../utils';
 
 export function DisplayHomePage(req: express.Request, res: express.Response, next: express.NextFunction) {
-    res.render('index', { title: 'Ferdowsi Rumi | Hazera', page: 'index', displayName: UserDisplayName(req) });
+    res.render('index', { title:'Jawad', page: 'index', displayName: UserDisplayName(req) });
 }
 
 export function DisplayAboutPage(req: express.Request, res: express.Response, next: express.NextFunction) {
