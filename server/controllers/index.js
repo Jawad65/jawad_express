@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DisplayContactPage = exports.DisplayServicesPage = exports.DisplayProjectsPage = exports.DisplayAboutPage = exports.DisplayHomePage = void 0;
 const utils_1 = require("../utils");
 function DisplayHomePage(req, res, next) {
-    res.render('index', { title: 'Ferdowsi Rumi | Hazera', page: 'index', displayName: (0, utils_1.UserDisplayName)(req) });
+    res.render('index', { title: 'Jawad', page: 'index', displayName: (0, utils_1.UserDisplayName)(req) });
 }
 exports.DisplayHomePage = DisplayHomePage;
 function DisplayAboutPage(req, res, next) {
