@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "tsc && node server.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": "12.11.1",
@@ -29,7 +29,7 @@
     "ts-node": "^10.2.1",
     "mongoose": "^6.0.8"
   },
-  "description": "Profile of Ferdowsi Rumi using node.js",
+  "description": "Profile of jawad using node.js",
   "main": "index.js",
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
